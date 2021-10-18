@@ -30,11 +30,11 @@ document.querySelector(".check").addEventListener("click", function () {
 
     // preserving the highscore 👇
     if (score > highScore) {
-      highScore === score;
+      highScore = score;
+      // selecting high score 👇
+    document.querySelector(".highscore").textContent = highScore;
     }
-    // selecting high score 👇
-    document.querySelector(".highscore").textContent = score;
-
+    
     // win the game and the secret number will show up
     document.querySelector(".number").textContent = secretNumber;
 

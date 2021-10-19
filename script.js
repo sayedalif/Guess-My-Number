@@ -8,7 +8,7 @@ let score = 20;
 // lets take high score as 0
 let highScore = 0;
 
-// making a message duntion so that i can keep the code dry 👇
+// making a message funtion so that i can keep the code dry 👇
 
 const displayMessage = function (message) {
   document.querySelector(".message").textContent = message;
